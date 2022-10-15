@@ -1,31 +1,166 @@
 <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <title>After Class Repaso</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
-        <link rel="stylesheet" href="./css/estilo.css">
-        <script src="js/documento.js"></script>
-        <script src="js/objetos.js"></script>
-    </head>
-    <body class="color-change-5x">
-        <H1>Cotización Vinos</H1>
-        <p class="vino" > Aquí encontrará la mas alta selección de vinos</p>
-        <p class="titulo">Tipos de Vinos:</p>
-        <div>  
-        <ul>
-            <li>Caberbet</li>
-            <li>Malbet</li>
-            <li>Red</li>
-        </ul>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vinos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/estilo.css" />
+    <script src="js/documento.js"></script>
+    <script src="js/objetos.js"></script>
+  </head>
+  <body class="color-change-5x">
+    <header>
+      <h1>Cotización Vinos</h1>
+      <p class="vino">Aquí encontrará la mas alta selección de vinos</p>
+      <nav class="navbar navbar-expand-xl bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bodega</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  rolen="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Tipos de vinos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Cabernet Franc</a></li>
+                  <li><a class="dropdown-item" href="#">Malbec</a></li>
+                  <li><a class="dropdown-item" href="#">RedBlend</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Busqueda
+              </button>
+            </form>
+          </div>
         </div>
-        <div class="boton">
-        <button onclick="login()">login</button>
-        <button onclick="verProductos()">Ver Productos</button>
-        <button onclick="">Cotizar Vino</button>
+      </nav>
+    </header>
+    <main>
+      <div class="imgPadre">
+        <div class="imag-1">
+          <img src="./img/PREMIUM-MALBEC.png" alt="" class="vino1" />
+          <p>Vino Malbec Cordoba</p>
         </div>
-    </body>
+        <div class="imag-2">
+          <img src="./img/gran-enemigo.png" alt="" class="vino2" />
+          <p>Vino Cabernet Franc El Gran Enemigo</p>
+        </div>
+        <div class="imag-3">
+          <img src="./img/reservabag.jpg" alt="" class="vino3" />
+          <p>Vino Malbec Reserva Bag</p>
+        </div>
+      </div>
+      <div class="imgPadre2">
+        <div class="imag-4">
+          <img src="./img/mm.jpeg" alt="" class="vino4" />
+          <p>Vino Mosquita Muerta/p>
+        </div>
+        <div class="imag-5">
+          <img src="./img/SaintFelicien.jpeg" alt="" class="vino5" />
+          <p>Vino SaintFelicien Malbec</p>
+        </div>
+        <div class="imag-6">
+          <img src="./img/rutini.jpeg" alt="" class="vino6" />
+          <p>Vino Cabernet Rutini</p>
+        </div>
+      </div>
+      <div class="imgPadre3">
+        <div class="img-7">
+          <img src="./img/flora.jpg" alt="" class="vino7" />
+          <p>Vino Blanco Gata Flora Torrontes</p>
+        </div>
+        <div class="img-8">
+          <img src="./img/gradum-carmenere.png" alt="" class="vino8" />
+          <p>Vino Vistades Gradum Carmenere</p>
+        </div>
+        <div class="img-9">
+          <img src="./img/castizo.jpg" alt="" class="vino9" />
+          <p>Vino Cabernet Franc Castizo</p>
+        </div>
+      </div>
+      <div class="imgPadre4">
+        <div class="img-10">
+          <img src="./img/mara-cabernet-franc.png" alt="" class="vino10" />
+          <p>Vino Cabernet Franc Ernesto Catena</p>
+        </div>
+        <div class="img-11">
+          <img src="./img/esteco.jpeg" alt="" class="vino11" />
+          <p>Vino Cabernet Sauvignon El Esteco</p>
+        </div>
+        <div class="img-12">
+          <img src="./img/almanegra.jpeg" alt="" class="vino12" />
+          <p>Vino RedBlend Alma Negra</p>
+        </div>
+      </div>
+      <div class="imgPadre5">
+        <div class="img-13">
+          <img src="./img/andeluna-elevacion.jpg" alt="" class="vino13" />
+          <p>Vino RedBlend Andeluna Elevación"</p>
+        </div>
+        <div>
+          <img src="./img/cocodrilo.jpg" alt="" class="vino14" />
+          <p>VVino RedBlend Cocodrilo</p>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
