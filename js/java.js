@@ -1,3 +1,5 @@
+
+
 const productos =  [
     { nombre: "Vino Malbec Cordoba", precio: 2500},
     { nombre: "Vino Cabernet Franc El Gran Enemigo", precio: 4650},
@@ -13,6 +15,7 @@ const productos =  [
     { nombre: "Vino RedBlend Alma Negra", precio: 4500},
     { nombre: "Vino RedBlend Andeluna Elevación", precio: 2500},
     { nombre: "Vino RedBlend Cocodrilo", precio: 2500},
+    { nombre: "Vino Rutini Blanc", precio: 2500},
 
 ];
 
@@ -37,7 +40,7 @@ while (seleccion != "no") {
     let producto = prompt("agrega un producto a tu carrito")
     let precio = 0
 
-    if (producto == "Vino Malbec Cordoba"|| producto == "Vino Cabernet Franc El Gran Enemigo"||producto == "Vino Malbec Reserva Bag"|| producto == "Vino Mosquita Muerta"|| producto == "Vino SaintFelicien Malbec"|| producto == "Vino Cabernet Rutini" || producto == "Vino Blanco Gata Flora Torrontes"|| producto == "Vino Vistades Gradum Carmenere"|| producto == "Vino Cabernet Franc Castizo "|| producto == "Vino Cabernet Franc Ernesto Catena"||producto == "Vino Cabernet Sauvignon El Esteco"|| producto == "Vino RedBlend Alma Negra"|| producto == "Vino RedBlend Andeluna Elevación"|| producto == "Vino RedBlend Cocodrilo" ) {
+    if (producto == "Vino Malbec Cordoba"|| producto == "Vino Cabernet Franc El Gran Enemigo"||producto == "Vino Malbec Reserva Bag"|| producto == "Vino Mosquita Muerta"|| producto == "Vino SaintFelicien Malbec"|| producto == "Vino Cabernet Rutini" || producto == "Vino Blanco Gata Flora Torrontes"|| producto == "Vino Vistades Gradum Carmenere"|| producto == "Vino Cabernet Franc Castizo "|| producto == "Vino Cabernet Franc Ernesto Catena"||producto == "Vino Cabernet Sauvignon El Esteco"|| producto == "Vino RedBlend Alma Negra"|| producto == "Vino RedBlend Andeluna Elevación"|| producto == "Vino RedBlend Cocodrilo"  || "Vino Rutini Blanc") {
         switch (producto) {
             case "Vino Malbec Cordoba":
                 precio = 2500;
@@ -84,6 +87,9 @@ while (seleccion != "no") {
             case "Vino RedBlend Cocodrilo":
                 precio = 2500;
                 break;
+            case "Vino Rutini Blanc":
+                precio= 2500;
+            break;
             default:
                 break;
         }

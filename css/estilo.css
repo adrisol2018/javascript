@@ -1,19 +1,34 @@
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    
+}
 h1{
     width: 100%;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 1%  0 3%0;
-    color: #9e2a2b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    margin: 4%  0 3% 0;
+    color: #5f0f40;
+    font-size: 4rem;
     
 }
 
-
+header{
+    background-color: #6d6875;
+}
 
 .vino{
     width: 100%;
     margin: 1% 0 1% 3%;
     font-size: 3rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
     text-align: center;
     color: #000000;
@@ -22,30 +37,73 @@ h1{
 
 .titulo{
     width: 100%;
-    margin: 0 0 1% 3%;a
+    margin: 0 0 1% 3%;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 0 0 1%;
+}
+
+.nav-link {
+font-size: 1.5rem;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 div{
     width: 100%;
-    margin: 2%  0 0 0;
+    margin: 3%  0 0 3%;
+}
+
+p{
+    width: 100%;
+    margin: 1% 0 0 33%
+
+}
+
+.texto{
+    text-align: justify;
+    font-size: 1.5rem;
+    margin: 0 0 0 35%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: 500;
 }
 
 div .img-1{
     width: 100%; 
-    margin: 1%  0 0 0;
+    margin: 3%  0 0 0;
 }
 
 .vino1{
-    width: 35%;
+    width: 50%;
+    margin: 0 0 3% 30%;
 
 }
+
+ .card-button{
+    width: 100%;
+}
+
+.precio{
+    width: 100%;
+    margin: 0 0 0 50%;
+}
+button {
+    width: 20%;
+    margin: 0 0 0 40%;
+}
+
+
 div .img-2 {
     width: 100%;
-    margin: 1%;
+    margin: 1% 0 0 0;
 }
 
 .vino2 {
-    width: 10%;
+    width: 16%;
+    margin: 0 0 2% 55%;
 
 }
 
@@ -55,7 +113,8 @@ div .img-3 {
 }
 
 .vino3{
-    width: 25%;
+    width: 35%;
+    margin: 3% 0 8% 36%;
 
 }
 
@@ -65,7 +124,8 @@ div .img-4 {
 }
 
 .vino4 {
-    width: 25%;
+    width: 35%;
+    margin: 0 0 4% 40%;
 
 }
 div .img-5 {
@@ -74,7 +134,8 @@ div .img-5 {
 }
 
 .vino5{
-    width: 25%;
+    width: 35%;
+    margin: 0 0 4% 40%;
 
 }
 div .img-6 {
@@ -83,7 +144,8 @@ div .img-6 {
 }
 
 .vino6 {
-    width: 25%;
+    width: 35%;
+    margin: 0 0 4% 35%;
 
 }
 
@@ -93,7 +155,8 @@ div .img-7 {
 }
 
 .vino7 {
-    width: 30%;
+    width: 35%;
+    margin: 0 0 4% 40%;
 
 }
 div .img-8 {
@@ -102,7 +165,8 @@ div .img-8 {
 }
 
 .vino8 {
-    width: 25%;
+    width: 45%;
+    margin: 7% 0 4% 40%;
 
 }
 div .img-9 {
@@ -111,7 +175,8 @@ div .img-9 {
 }
 
 .vino9 {
-    width: 13%;
+    width: 22%;
+    margin: 10% 0 6% 45%;
 
 }
 div .img-10 {
@@ -120,7 +185,8 @@ div .img-10 {
 }
 
 .vino10 {
-    width: 25%;
+    width: 38%;
+    margin: 0 0 5% 40%;
 
 }
 div .img-11 {
@@ -129,7 +195,8 @@ div .img-11 {
 }
 
 .vino11 {
-    width: 25%;
+    width: 40%;
+    margin: 0 0 5% 40%;
 
 }
 div .img-12 {
@@ -138,7 +205,8 @@ div .img-12 {
 }
 
 .vino12 {
-    width: 25%;
+    width: 40%;
+    margin: 0 0 5% 40%;
 
 }
 div .img-13 {
@@ -147,7 +215,8 @@ div .img-13 {
 }
 
 .vino13 {
-    width: 35%;
+    width: 45%;
+    margin: 0 0 5% 33%;
 
 }
 div .img-14 {
@@ -156,10 +225,21 @@ div .img-14 {
 }
 
 .vino14 {
-    width: 18%;
+    width: 24%;
+    margin: 2% 0 5% 45%;
 
 }
 
+div .img-15{
+    width: 100%;
+    margin: 1%;
+}
+
+.vino15 {
+    width: 32%;
+    margin: 4% 0 5% 45%;
+
+}
 main{
     width: 100%;
     height: 100%;
@@ -199,3 +279,47 @@ main{
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
  }
+
+ div .footerPadre{
+    width: 100%;
+    margin: 15% 0 20% 20%;
+ }
+
+ .footerPadre{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+ .instagram1{
+    width: 15%;
+    margin: 0 0 10% 50%;
+ }
+
+ div .facebook{
+    width: 100%;
+    margin: 4% 0 0 25%;
+ }
+
+ .facebook1 {
+     width: 15%;
+ }
+ div .twitter {
+     width: 100%;
+ }
+
+ .twitter1 {
+     width: 15%;
+    margin: 2% 0 0 0;
+ }
+  div .telegram {
+      width: 100%;
+  }
+
+  .telegram1 {
+      width: 15%;
+      margin: 0 0 5%;
+  }
+  footer{
+    background-color: #6d6875;
+  }
+
