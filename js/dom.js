@@ -33,40 +33,15 @@ const retornoVino = (producto) => {
 
 const container1 = document.querySelector("div.container1");
 
-const retornoVino1 = (producto) => {
-  return `
-    <div class="imgPadre2">
-            <div class="imag-4">
-            <img src="./img/mm.jpeg" alt="" class="vino4" />
-            <p class="texto">Vino Mosquita Muerta/p>
-            <div class="card-name">Vino</div>
-                <p class="precio">$ 4500</p>
-            <div class="card-button">
-                <button class="button button-outline button-add" id="idunico" title="Pulsa para agregar al carrito">+</button>
-            </div>
-            </div>
-            <div class="imag-5">
-            <img src="./img/SaintFelicien.jpeg" alt="" class="vino5" />
-            <p class="texto">Vino SaintFelicien Malbec</p>
-            <div class="card-name">Vino</div>
-            <p class="precio">$ 2500</p>
-            <div class="card-button">
-                <button class="button button-outline button-add" id="idunico" title="Pulsa para agregar al carrito">+</button>
-            </div>
-            </div>
-            <div class="imag-6">
-            <img src="./img/rutini.jpeg" alt="" class="vino6" />
-            <p class="texto">Vino Cabernet Rutini</p>
-            <div class="card-name">Vino</div>
-            <p class="precio">$ 3500</p>
-            <div class="card-button">
-                <button class="button button-outline button-add" id="idunico" title="Pulsa para agregar al carrito">+</button>
-            </div>
-            </div>
-        </div>`
-}
-const container2 = document.querySelector("div.container1");
-
+const activarBotonAdd = () => {
+  const botonesAdd = document.querySelectorAll(".button.button-outline.button-add")
+ 
+  botonesAdd.forEach(btn => {
+    btn.addEventListener("click",()=> {
+      agregarAlCarrito(btn.id)
+  })
+})
+  
 const retornoVino2 = (producto) => {
   return `
     <div class="imgPadre3">
